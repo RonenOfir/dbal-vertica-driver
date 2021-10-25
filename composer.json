@@ -1,6 +1,6 @@
 {
-    "name": "RonenOfir/dbal-vertica-driver",
-    "description": "Doctrine DBAL driver for Vertica in Laravel",
+    "name": "ronenofir/dbal-vertica-driver",
+    "description": "Doctrine DBAL driver for Vertica in Laravel compatible for v 7/8 test",
     "keywords": [
         "database",
         "dbal",
