@@ -1,0 +1,54 @@
+{
+    "name": "RonenOfir/dbal-vertica-driver",
+    "description": "Doctrine DBAL driver for Vertica in Laravel",
+    "keywords": [
+        "database",
+        "dbal",
+        "doctrine",
+        "vertica",
+        "driver",
+        "analytics",
+        "laravel"
+    ],
+    "homepage": "https://github.com/RonenOfir/dbal-vertica-driver",
+    "type": "library",
+    "license": "MIT",
+    "conflict": {
+        "che/dbal-vertica-driver": "*"
+    },
+    "authors": [
+        {
+            "name": "Ronen Ofir",
+            "email": "rofir2010@gmail.com",
+            "role": "developer",
+            "homepage": "https://github.com/RonenOfir"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Doctrine\\DBAL\\Driver\\Vertica": "src/",
+            "Illuminate\\Database\\Vertica": "src/"
+        },
+        "psr-4": {
+            "RonenOfir\\VerticaDriver\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Doctrine\\DBAL\\Driver\\Vertica\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-odbc": "*",
+        "doctrine/dbal": "~2.3",
+        "symfony/options-resolver": "^3.2|^4.3"
+    },
+    "require-dev": {
+        "phpmd/phpmd": "^2.4",
+        "squizlabs/php_codesniffer": "^2.7",
+        "phpunit/phpunit": "^5.6"
+    }
+}
